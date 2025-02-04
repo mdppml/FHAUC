@@ -1,0 +1,11 @@
+# Ignore build directory
+/cmake-build-debug/
+
+# Ignore data directory
+/Simdata/
+
+# Ignore all log files
+*.log
+
+# Ignore IDE-specific files (e.g., for CLion)
+.idea/
