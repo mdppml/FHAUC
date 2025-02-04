@@ -20,7 +20,7 @@ This repository contains the source code of our research article
 
 2. Navigate to the project directory:
     ```bash
-    cd FHEAUC
+    cd FHAUC
     ```
 
 3. Build the project using CMake:
@@ -38,9 +38,9 @@ Once you’ve successfully built the project, you can run the executable directl
     cd build
     ```
 
-2. Run the project by executing the generated binary `FHEAUC`:
+2. Run the project by executing the generated binary `FHAUC`:
     ```bash
-    ./FHEAUC
+    ./FHAUC
     ```
 
     This will run the current experiment, which starts from the `src/main.cpp` file.

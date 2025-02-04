@@ -9,3 +9,4 @@
 
 # Ignore IDE-specific files (e.g., for CLion)
 .idea/
+.DS_Store
