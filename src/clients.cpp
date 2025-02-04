@@ -289,18 +289,6 @@ std::tuple<CryptoContext<DCRTPoly>, KeyPair<DCRTPoly>> clientsSetup(uint32_t no_
 
     std::cout << "Ciphertexts have been generated from Plaintexts" << std::endl;
 
-    /*
-   * Part 2:
-   * We serialize the following:
-   *  Cryptocontext
-   *  Public key
-   *  relinearization (eval mult keys)
-   *  rotation keys
-   *  Some ciphertext
-   *
-   *  We serialize all of them to files
-   */
-
     demarcate("Part 2: Data Serialization (Clients)");
 
     if (!Serial::SerializeToFile(dataFolder + ccLocation, clientsCC, SerType::BINARY)) {
